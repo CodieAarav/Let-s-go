@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Order your favorite South Indian dishes like Dosa and Idli online from Dosai Idli. Explore our menu, enjoy special offers, and have delicious meals delivered right to your doorstep. Place your order now and savor the authentic flavors of South India!">
+</head>
+
+<body>
+    <header>
+        
+        <h1>Orders</h1>
+        <h2>You can buy our idlis and dosa here.</h2>
+        
+    </header>
+    <main>
+        <h3>Menu</h3>
+        <table border="1" align="center" cellpadding="10"
+            style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAlGD_iREYmO1WES0nKZJZWk9UWzyFNlnygA&s'); background-size: cover;">
+            <thead>
+                <tr>
+                    <th>Items</th>
+                    <th>Price (INR)</th>
+                    <th>Offers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dosa</td>
+                    <td>50</td>
+                    <td>Buy 2 Get 1 Free</td>
+                </tr>
+                <tr>
+                    <td>Idli</td>
+                    <td>15</td>
+                    <td>Buy 4 get 1 free</td>
+                </tr>
+                <tr>
+                    <td>Masala Dosa</td>
+                    <td>70</td>
+                    <td>Free coconut chutney</td>
+                </tr>
+                <tr>
+                    <td>Set of 6 Idlis</td>
+                    <td>90</td>
+                    <td>---- ---- ---- ----</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3" align="center">Free chutney and sambar with every order</td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">Visit us again!</td>
+                </tr>
+
+            </tfoot>
+        </table>
+        <div id="a"><a id="back" href="index.html">Back to Home</a></div>
+        <hr>
+        <h3>Order here</h3>
+        <h3>Buyer's information</h3>
+        <form method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address"></textarea><br><br>
+
+            <h4>Select Items:</h4>
+            <label for="item1">Dosa(50 rupees)</label>
+            <input type="checkbox" name="item" id="item1" value="Dosa">
+            <select name="quantity dosa">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br><br>
+            <label for="item2">Idli(15 rupees)</label>
+            <input type="checkbox" name="item" id="item2" value="Idli">
+            <select name="quantity idli">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br><br>
+
+            <label for="item3">Masala Dosa(70 rupees)</label>
+            <input type="checkbox" name="item" id="item3" value="Masala Dosa">
+            <select name="quantity masala dosa">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br><br>
+            <label for="item4">Set of 6 Idlis(90 rupees)</label>
+            <input type="checkbox" name="item" id="item4" value="Set of 6 Idlis">
+            <select name="quantity set of 6 idlis">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Place Order">
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>© 2024 All about Dosa. All rights reserved.</p>  
+        <p>If any problem occurs while delivery you can tell us at +91 1234567890
+        </p>
+        <p>
+            If you have any suggestions email us at Dosai@gmail.com
+        </p>    
+    </footer>
+</body>
+</html>
